@@ -68,6 +68,6 @@ please use SDHCI library instead of Flash library. This example uses Flash libra
     void loop() { }
     
 ## Tips
- If you use TeraTerm for the host application on your PC. When you receive data from Spresense, please check "CRC" on the dialog to specify the local file.
+ If you use TeraTerm as a host application on your PC. Please check "CRC" on the dialog to specify the local file when you receive data from Spresense, .
  
 ![dialog](https://user-images.githubusercontent.com/18510684/91984640-36801700-ed67-11ea-908b-521bd6db5cc3.png)

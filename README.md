@@ -15,7 +15,6 @@ please use SDHCI library instead of Flash library. This example uses Flash libra
     #include <Flash.h>
     
     CrcXModem128 xmodem;
-    SDClass SD;
     
     void setup() {
       Serial.begin(115200);
@@ -44,7 +43,6 @@ please use SDHCI library instead of Flash library. This example uses Flash libra
     #include <Flash.h>
     
     CrcXModem128 xmodem;
-    SDClass SD;
     
     void setup() {
       Serial.begin(115200);
